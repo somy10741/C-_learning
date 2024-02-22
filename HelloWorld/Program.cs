@@ -86,6 +86,25 @@ namespace HelloWorld
             //int resultInt = num1 + num2;
             //Console.WriteLine(resultInt);
 
+            /*
+             * Assigment-1
+                 * Parse the string variables from below into the correct datatypes:
+                    public static void Main(string[] args)
+                    {   
+                       string stringForFloat = "0.85"; // datatype should be float
+                       string stringForInt = "12345"; // datatype should be int
+                    } 
+                    Questions for this assignment
+                    Share your solution (paste code):
+                        string stringForFloat = "0.85"; // datatype should be float
+                        string stringForInt = "12345"; // datatype should be int
+                        float val1 = float.Parse(stringForFloat);
+                        int val2 = Int32.Parse(stringForInt);
+                        Console.WriteLine("String to float : {0} and String to Int : {1}",val1,val2);
+             
+             */
+
+
             Console.ReadKey();
         }
     }
