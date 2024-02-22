@@ -74,6 +74,8 @@ namespace HelloWorld
             //string myString = num2.ToString();
             //Console.WriteLine("The conversion from double to string is : " + myString);
 
+            //-----------------------------------------------------------------------------------------------------------
+
             //Convert the string to number by using parse method
             //string val1 = "32";
             //string val2 = "50";
