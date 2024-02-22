@@ -28,17 +28,29 @@ namespace HelloWorld
             //Console.WriteLine(sum);
             //Console.Read();
 
-            string name = "Somesh Kumar Sahu";
-            Console.WriteLine("My name is " + name);
+            //----------------------------------------------------------
+            //string name = "Somesh Kumar Sahu";
+            //Console.WriteLine("My name is " + name);
 
-            //Convert the string to all UPPERCASE
-            string nameUpper = name.ToUpper();
-            Console.WriteLine("My name is " + nameUpper);
+            ////Convert the string to all UPPERCASE
+            //string nameUpper = name.ToUpper();
+            //Console.WriteLine("My name is " + nameUpper);
 
-            //Convert the string to all lowercase
-            string nameLower = name.ToLower();
-            Console.WriteLine("My name is " + nameLower);
+            ////Convert the string to all lowercase
+            //string nameLower = name.ToLower();
+            //Console.WriteLine("My name is " + nameLower);
 
+            //----------------------------------------------------------
+
+            //Read and ReadLine Methods
+            Console.Write("Enter a string and press Enter : ");
+            string readInput = Console.ReadLine();
+            Console.WriteLine("You have entered {0}", readInput);
+
+            Console.Write("Enter a character and press Enter : ");
+            int asciiValue = Console.Read();
+            Console.WriteLine("You have entered {0}", asciiValue);
+            Console.ReadKey();
             Console.Read();
 
         }
