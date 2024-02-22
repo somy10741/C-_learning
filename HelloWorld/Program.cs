@@ -13,7 +13,7 @@ namespace HelloWorld
             Console.WriteLine("Hello Somesh !!!! Welecome C# Learning");
             Console.ReadLine();
             Console.Beep();
-            Console.WriteLine("I will give one commitment to myself i.e. I will learn basic C#");
+            Console.WriteLine("I will give one commitment to myself i.e.    I will learn basic C#.");
             Console.Beep();
             Console.ReadLine();
 
