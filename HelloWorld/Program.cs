@@ -43,16 +43,48 @@ namespace HelloWorld
             //----------------------------------------------------------
 
             //Read and ReadLine Methods
-            Console.Write("Enter a string and press Enter : ");
-            string readInput = Console.ReadLine();
-            Console.WriteLine("You have entered {0}", readInput);
+            //Console.Write("Enter a string and press Enter : ");
+            //string readInput = Console.ReadLine();
+            //Console.WriteLine("You have entered {0}", readInput);
 
-            Console.Write("Enter a character and press Enter : ");
-            int asciiValue = Console.Read();
-            Console.WriteLine("You have entered {0}", asciiValue);
+            //Console.Write("Enter a key and press Enter : ");
+            //int asciiValue = Console.Read();
+            //Console.WriteLine("Ascii value of entered key is {0}", asciiValue);
+            //Console.ReadKey();
+            //Console.Read();
+            //----------------------------------------------------------
+
+            //Implicit and explicit conversions
+            //Implicit conversions
+            // Convert int to double
+            //int num = 36;
+            //double numDouble = num;
+            //Console.WriteLine("The conversion from int to double is : " + numDouble);
+
+
+            //Explicit conversions
+            // Convert double to int
+            //double num2 = 36.9658;
+            //Console.WriteLine(num2);
+            //int numInt = (int) num2;
+            //Console.WriteLine("The conversion from double to is : " + numInt);
+
+            //Type conversion
+            //double num2 = 36.9658;
+            //string myString = num2.ToString();
+            //Console.WriteLine("The conversion from double to string is : " + myString);
+
+            //Convert the string to number by using parse method
+            //string val1 = "32";
+            //string val2 = "50";
+            //string resultString = val1 + val2;
+            //Console.WriteLine(resultString);
+            //int num1 = Int32.Parse(val1);
+            //int num2 = Int32.Parse(val2);
+            //int resultInt = num1 + num2;
+            //Console.WriteLine(resultInt);
+
             Console.ReadKey();
-            Console.Read();
-
         }
     }
 }
