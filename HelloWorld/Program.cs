@@ -103,8 +103,28 @@ namespace HelloWorld
                         Console.WriteLine("String to float : {0} and String to Int : {1}",val1,val2);
              
              */
+            //-----------------------------------------------------------------------------------------------------------
+            //String manipulation
+            //1. String concatination.
+            //Declaring variable
+            int age = 32;
+            string name = "Somesh Kumar Sahu";
+            string companyName = "ZF India Pvt. Ltd. Hyderabad";
+            Console.WriteLine("String concatination");
+            Console.WriteLine("My name is " + name + " and My age is " + age + ". Currently I am working in " + companyName);
 
+            //2. String formatting :- It is used with the help of indexes
+            Console.WriteLine("String formating");
+            Console.WriteLine("My name is {0} and My age is {1}. Currently I am working in {2}",name,age,companyName);
 
+            //3. String interpolation :- It uses $ at the start which will allow us to write variables like {variableName}
+            Console.WriteLine("String interpolation");
+            Console.WriteLine($"My name is {name} and My age is {age}. Currently I am working in {companyName}");
+
+            //4. Verbatim strings :- instead of using \\ to write paths we can use verbatim strings to make it easier
+            // if you remove the @ you will get an error because \U, \A and \D are not valid escape characters
+            Console.WriteLine("verbatim strings");
+            Console.WriteLine(@"F:\C# COurse\HelloWorld\Sahu.png");
             Console.ReadKey();
         }
     }
