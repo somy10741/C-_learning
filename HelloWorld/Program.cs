@@ -166,14 +166,118 @@ namespace HelloWorld
              entered username.
              */
             // Solution.
-            string myName;
-            Console.Write("Please enter your name and then press enter : ");
-            myName = Console.ReadLine();
-            Console.WriteLine($"You entered name is {myName}");
-            Console.WriteLine($"Upper case : {myName.ToUpper()}");
-            Console.WriteLine($"Lower case : {myName.ToLower()}");
-            Console.WriteLine($"Trim : {myName.Trim()}");
-            Console.WriteLine($"Substring : {myName.Substring(3,8)}");
+            //string myName;
+            //Console.Write("Please enter your name and then press enter : ");
+            //myName = Console.ReadLine();
+            //Console.WriteLine($"You entered name is {myName}");
+            //Console.WriteLine($"Upper case : {myName.ToUpper()}");
+            //Console.WriteLine($"Lower case : {myName.ToLower()}");
+            //Console.WriteLine($"Trim : {myName.Trim()}");
+            //Console.WriteLine($"Substring : {myName.Substring(3,8)}");
+
+
+            /*
+             * Challenge 2 – String and its methods 2
+             --> Let’s create another console application for more practice.
+             --> This application asks the user to input a string in the first line like “Enter a string here: ”.
+             --> In the Second Line, it should ask for the character to search in the string which you have entered 
+                in the first line like “Enter the character to search: ”
+             --> On the third line, it should write the index of the first occurrence of the searched character 
+                from the string.
+             --> Now on concatenation...
+             --> It should then ask to enter the first name and once the name is written and the enter button is 
+                pressed, it should ask to enter the last name.
+             --> It should then show your full name printed in a single line like in my case the output will 
+                 be "Denis Panjuta". Output can be different in your case. Try to store the full name in a variable, 
+                 before displaying it.
+             */
+            //Solution.
+            // 1st part
+            //Console.Write("Enter a string here: ");
+            //string myVal = Console.ReadLine();
+            //Console.Write("Enter the character to search: ");
+            //char myChar = Console.ReadLine()[0];
+            //Console.WriteLine($"The index of the first occurrence of the searched character from the string is : {myVal.IndexOf(myChar)}");
+
+            //// 2nd part
+            //Console.Write("Enter the first name: ");
+            //string myFirstName = Console.ReadLine();
+            //Console.Write("Enter the last name: ");
+            //string myLastName = Console.ReadLine();
+            //string fullName = string.Concat(myFirstName, " ", myLastName);
+            //Console.WriteLine($"The full name you entered is {fullName}.");
+
+            /*
+             * Challenge 3 :
+             --> Now that you know how to declare and initialize Variables, please go ahead and create a variable 
+             for each of the primitive datatypes (you can find the list here). Leave the Object datatype out.
+             --> And also please initialize each variable with a working value.
+             --> Then create two values of type string. 
+             --> The first one should say "I control text"
+             --> The second one should be a whole number. Then use the Parse method in order to convert that 
+             string to an integer.
+             --> Add each an output for each of the variables and write it onto the console. (WriteLine)
+             --> Feel free to name your variables as you like, but keep in mind, that my result's variable 
+             names will differ to yours.
+             Have fun :)
+             */
+            // Solution
+            //byte num1 = 25; // 0 to 255
+            //Console.WriteLine(num1);
+
+            //sbyte num2 = 125; //-128 to 127
+            //Console.WriteLine(num2);
+
+            //int num3 = 65; // -2,147,483,648 to 2,147,483,647
+            //Console.WriteLine(num3);
+
+            //uint num4 = 98;//0 to 4294967295
+            //Console.WriteLine(num4);
+
+            //short num5 = 9; //-32,768 to 32,767
+            //Console.WriteLine(num5);
+
+            //ushort num6 = 66; //0 to 65535
+            //Console.WriteLine(num6);
+
+            //long num7 = 98989; //-9223372036854775808 to 9223372036854775807
+            //Console.WriteLine(num7);
+
+            //ulong num8 = 654654654; //0 to 18446744073709551615
+            //Console.WriteLine(num8);
+
+            //float num9 = 54564654.5f; //-3.402823e38 to 3.402823e38
+            //Console.WriteLine(num9);
+
+            //double num10 = 46454.2454654; //-1.79769313486232e308 to 1.79769313486232e308
+            //Console.WriteLine(num10);
+
+            //char val1 = 's'; // Unicode symbols used in text
+            //Console.WriteLine(val1);
+
+            //bool val2 = true; //True or false
+            //Console.WriteLine(val2);
+
+            //object val3 = "somesh";
+            //Console.WriteLine(val3);
+
+            //string val4 = "my name is somesh kumar"; // A sequence of characters
+            //Console.WriteLine(val4);
+
+            //decimal val5 = 65656.32M; //±1.0 × 10e−28 to ±7.9 × 10e28
+            //Console.WriteLine(val5);
+
+            //string numText = "32";
+            //Console.WriteLine(int.Parse(numText));
+
+            //-----------------------------------------------------------------------------------------------------------
+            /*------- using the "var" keyword ---------------*/
+            /* --> The var keyword allows to create a variable where the variable is typed implicitly based 
+            on what you are assigning to the variable.
+            On initialisation you mustinitialize it and after that you cannot change the datatype of that
+            eg. var myNum = 10; // possible
+            var myNum; //not possible and showing error because we need to initialise the variable in var
+            */
             Console.ReadKey();
         }
     }
