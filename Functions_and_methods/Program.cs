@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HelloWorld
+namespace Functions_and_methods
 {
-    class Function_and_method
+    class Program
     {
-        static void Main1(string[] args)
+        static void Main(string[] args)
         {
-            Console.WriteLine("Hello world");
+            Console.WriteLine("Welcome to learning in functions and methods");
             Console.ReadKey();
         }
     }

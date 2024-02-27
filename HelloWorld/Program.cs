@@ -278,6 +278,7 @@ namespace HelloWorld
             eg. var myNum = 10; // possible
             var myNum; //not possible and showing error because we need to initialise the variable in var
             */
+            Console.WriteLine("Hello world");
             Console.ReadKey();
         }
     }
