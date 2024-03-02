@@ -8,9 +8,10 @@ namespace Functions_and_methods
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Console.WriteLine("Welcome to learning in functions and methods");
+            Console.WriteLine();
             /*
              Introduction : A method is a code block that a series of statements.
                         --> Aprogram causes the statements to be executed by calling the method and specifying any 
@@ -35,7 +36,46 @@ namespace Functions_and_methods
                         --> Method body : This contains the set of instructions needed to complete the required activity.
 
              */
+            //WriteSomething();
+            //writeSomethingSpecific("i am an argument and am calling from a method");
+            //Console.WriteLine(add(15, 3));
+            //Console.WriteLine(Multiply(3, 6));
+            //string friend1 = "Somesh";
+            //string friend2 = "Kumar";
+            //string friend3 = "Sahu";
+            //GreetFriend(friend1, friend2, friend3);
             Console.ReadKey();
         }
+        /*
+        // access modifier (static) return type method name (parameter 1, parameter 2)
+        public static void WriteSomething()
+        {
+            Console.WriteLine("I am calling from different method");
+            
+        }
+
+        public static void writeSomethingSpecific(string myText)
+        {
+            Console.WriteLine(myText);
+            
+        }
+        */
+
+        //public static int add(int num1, int num2)
+        //{
+        //    return (num1 + num2);
+        //}
+        //public static int Multiply(int num1, int num2)
+        //{
+        //    return num1 * num2;
+        //}
+
+        //public static void GreetFriend(string friend1, string friend2, string friend3)
+        //{
+        //    Console.WriteLine($"Hello {friend1} How are you.....");
+        //    Console.WriteLine($"Hello {friend2} How are you.....");
+        //    Console.WriteLine($"Hello {friend3} How are you.....");
+        //}
+
     }
 }
