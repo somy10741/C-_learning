@@ -93,26 +93,64 @@ namespace Making_Decisions
                 could not be broken and is still held by " + highscorePlayer.
                 --> Consider which variables are required globally and which ones locally.
              */
-            Console.Write("Enter the score : ");
-            highScore = int.Parse(Console.ReadLine());
-            Console.WriteLine("ENter the player name : ");
-            playerName = Console.ReadLine();
-            CheckHighScore(highScore,playerName);
+            //Console.Write("Enter the score : ");
+            //highScore = int.Parse(Console.ReadLine());
+            //Console.WriteLine("ENter the player name : ");
+            //playerName = Console.ReadLine();
+            //CheckHighScore(highScore,playerName);
 
-            Console.ReadKey();
-        }
-        public static void CheckHighScore(int highScore, string playerName)
-        {
-            
-            if(highScore > LastHighScore)
+
+            /*-------------------------------------------------------------------------------------------------*/
+            /************** Ternary Operrator   ********************/
+            int inputTemperature = 0;
+            string temperatureMessage = string.Empty;
+            string inputValue = string.Empty;
+
+            //takes input from console
+            Console.Write("Enter the current temperature : ");
+            inputValue = Console.ReadLine();
+
+            //validate the input as validate integer or not
+            bool validInteger = int.TryParse(inputValue, out inputTemperature);
+
+            if (validInteger)
             {
-                Console.WriteLine($"New highscore is {highScore}");
-                Console.WriteLine($"New highscore holder is {playerName}");
+                //if the valid integer then it will check for the conditions using nested ternary operator
+                temperatureMessage = inputTemperature <= 15 ? 
+                    // True
+                    "It is very cold. Please wear the woolen clothes" :
+
+                    //False
+                    (inputTemperature > 15 && inputTemperature <= 30) ?
+
+                    // True
+                    "It is cold." :
+
+                    // True
+                    inputTemperature > 30 ?
+
+                    //False
+                    "The weather is hot" : "";
+                Console.WriteLine(temperatureMessage);
             }
             else
             {
-                Console.WriteLine($"The old highscore of {LastHighScore} could not be broken and is still held by {LastHighScorePlayerName}.");
+                Console.WriteLine("Not a valid temperature");
             }
+            Console.ReadKey();
         }
+        //public static void CheckHighScore(int highScore, string playerName)
+        //{
+            
+        //    if(highScore > LastHighScore)
+        //    {
+        //        Console.WriteLine($"New highscore is {highScore}");
+        //        Console.WriteLine($"New highscore holder is {playerName}");
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine($"The old highscore of {LastHighScore} could not be broken and is still held by {LastHighScorePlayerName}.");
+        //    }
+        //}
     }
 }
