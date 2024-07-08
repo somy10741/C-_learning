@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops", "Loops\Loops.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPs", "OOPs\OOPs.csproj", "{4E8EEC28-633B-4127-A8C6-3B4E24878F84}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Write_your_first_c_sharp_method", "Write_your_first_c_sharp_method\Write_your_first_c_sharp_method.csproj", "{3D1D3D90-EF66-498E-9434-37A18A949C9D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{4E8EEC28-633B-4127-A8C6-3B4E24878F84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E8EEC28-633B-4127-A8C6-3B4E24878F84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E8EEC28-633B-4127-A8C6-3B4E24878F84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D1D3D90-EF66-498E-9434-37A18A949C9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D1D3D90-EF66-498E-9434-37A18A949C9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D1D3D90-EF66-498E-9434-37A18A949C9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D1D3D90-EF66-498E-9434-37A18A949C9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
